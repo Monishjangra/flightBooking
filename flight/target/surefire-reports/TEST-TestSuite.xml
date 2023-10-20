@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="11.445" tests="3" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:/Git/FlightBooking/flight"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Git\FlightBooking\flight"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MONISH~1.SIN\AppData\Local\Temp\1\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/Program Files/apache-maven-3.9.4/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\monish.singh\bin;C:\Users\monish.singh\AppData\Local\Programs\Git1\mingw64\bin;C:\Users\monish.singh\AppData\Local\Programs\Git1\usr\local\bin;C:\Users\monish.singh\AppData\Local\Programs\Git1\usr\bin;C:\Users\monish.singh\AppData\Local\Programs\Git1\usr\bin;C:\Users\monish.singh\AppData\Local\Programs\Git1\mingw64\bin;C:\Users\monish.singh\AppData\Local\Programs\Git1\usr\bin;C:\Users\monish.singh\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\apache-maven-3.9.4\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\PuTTY;C:\Users\monish.singh\AppData\Local\Microsoft\WindowsApps;C:\Users\monish.singh\AppData\Local\Programs\Git1\cmd;C:\Users\monish.singh\AppData\Local\gitkraken\bin;C:\Users\monish.singh\AppData\Local\Programs\Git1\usr\bin\vendor_perl;C:\Users\monish.singh\AppData\Local\Programs\Git1\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="C:/Program Files/apache-maven-3.9.4/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:/Program Files/apache-maven-3.9.4/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\monish.singh"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="monish.singh"/>
+    <property name="java.class.path" value="C:/Program Files/apache-maven-3.9.4/boot/plexus-classworlds-2.7.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.9.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="newTest" classname="com.flight.testRunner.TestRunner" time="10.394">
+    <failure message="invalid session id&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [ff586f0475999778539629e88c36aba0, setTimeout {implicit=10000}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.46, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54099}, msedge: {msedgedriverVersion: 118.0.2088.46 (175bd6acfc46..., userDataDir: C:\Users\MONISH~1.SIN\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.106.150:4444/s..., se:cdpVersion: 118.0.2088.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ff586f0475999778539629e88c36aba0" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ff586f0475999778539629e88c36aba0, setTimeout {implicit=10000}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.46, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54099}, msedge: {msedgedriverVersion: 118.0.2088.46 (175bd6acfc46..., userDataDir: C:\Users\MONISH~1.SIN\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.106.150:4444/s..., se:cdpVersion: 118.0.2088.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff586f0475999778539629e88c36aba0
+</failure>
+    <system-out><![CDATA[on start: flight test 2
+on start: flight test 1
+on start: flight test 3
+test start: newTest
+test start: newTest
+test start: newTest
+
+Scenario: Search flight for Delhi to pune # src/test/java/com/flight/feature/search.feature:3
+
+Scenario: Search flight for Delhi to pune # src/test/java/com/flight/feature/search.feature:3
+
+Scenario: Search flight for Delhi to pune # src/test/java/com/flight/feature/search.feature:3
+before
+before
+before
+  Given we are on website page            # com.flight.stepdefinition.SearchStepDef.we_are_on_website_page()
+  Then select departure city              # com.flight.stepdefinition.SearchStepDef.select_departure_city()
+  Then select arrival city                # com.flight.stepdefinition.SearchStepDef.select_arrival_city()
+1
+line 99
+  Then select date                        # com.flight.stepdefinition.SearchStepDef.select_date()
+  Then select Number of Passengers        # com.flight.stepdefinition.SearchStepDef.select_number_of_passengers()
+  Then select currency                    # com.flight.stepdefinition.SearchStepDef.select_currency()
+  Then click on search button             # com.flight.stepdefinition.SearchStepDef.click_on_search_button()
+after
+      org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ff586f0475999778539629e88c36aba0, setTimeout {implicit=10000}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.46, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54099}, msedge: {msedgedriverVersion: 118.0.2088.46 (175bd6acfc46..., userDataDir: C:\Users\MONISH~1.SIN\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.106.150:4444/s..., se:cdpVersion: 118.0.2088.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff586f0475999778539629e88c36aba0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:962)
+	at com.flight.testData.Comman.onStart(Comman.java:40)
+
+  Given we are on website page            # com.flight.stepdefinition.SearchStepDef.we_are_on_website_page()
+      org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ff586f0475999778539629e88c36aba0, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.46, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54099}, msedge: {msedgedriverVersion: 118.0.2088.46 (175bd6acfc46..., userDataDir: C:\Users\MONISH~1.SIN\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.106.150:4444/s..., se:cdpVersion: 118.0.2088.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff586f0475999778539629e88c36aba0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:309)
+	at com.flight.stepdefinition.SearchStepDef.we_are_on_website_page(SearchStepDef.java:31)
+	at âœ½.we are on website page(file:///D:/Git/FlightBooking/flight/src/test/java/com/flight/feature/search.feature:4)
+
+  Given we are on website page            # com.flight.stepdefinition.SearchStepDef.we_are_on_website_page()
+  Then select departure city              # com.flight.stepdefinition.SearchStepDef.select_departure_city()
+  Then select departure city              # com.flight.stepdefinition.SearchStepDef.select_departure_city()
+  Then select arrival city                # com.flight.stepdefinition.SearchStepDef.select_arrival_city()
+  Then select arrival city                # com.flight.stepdefinition.SearchStepDef.select_arrival_city()
+  Then select date                        # com.flight.stepdefinition.SearchStepDef.select_date()
+  Then select date                        # com.flight.stepdefinition.SearchStepDef.select_date()
+  Then select Number of Passengers        # com.flight.stepdefinition.SearchStepDef.select_number_of_passengers()
+  Then select Number of Passengers        # com.flight.stepdefinition.SearchStepDef.select_number_of_passengers()
+  Then select currency                    # com.flight.stepdefinition.SearchStepDef.select_currency()
+  Then select currency                    # com.flight.stepdefinition.SearchStepDef.select_currency()
+  Then click on search button             # com.flight.stepdefinition.SearchStepDef.click_on_search_button()
+  Then click on search button             # com.flight.stepdefinition.SearchStepDef.click_on_search_button()
+after
+after
+      org.openqa.selenium.WebDriverException: java.net.ConnectException
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ff586f0475999778539629e88c36aba0, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.46, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54099}, msedge: {msedgedriverVersion: 118.0.2088.46 (175bd6acfc46..., userDataDir: C:\Users\MONISH~1.SIN\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.106.150:4444/s..., se:cdpVersion: 118.0.2088.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff586f0475999778539629e88c36aba0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:437)
+	at com.flight.testData.Comman.tearDown(Comman.java:46)
+
+      org.openqa.selenium.WebDriverException: java.net.ConnectException
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ff586f0475999778539629e88c36aba0, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.46, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54099}, msedge: {msedgedriverVersion: 118.0.2088.46 (175bd6acfc46..., userDataDir: C:\Users\MONISH~1.SIN\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.106.150:4444/s..., se:cdpVersion: 118.0.2088.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:437)
+	at com.flight.testData.Comman.tearDown(Comman.java:46)
+
+on failure: null
+on failure: null
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 19, 2023 6:34:09 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+]]></system-err>
+  </testcase>
+  <testcase name="newTest" classname="com.flight.testRunner.TestRunner" time="10.396">
+    <failure message="invalid session id&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [ff586f0475999778539629e88c36aba0, getTitle {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.46, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54099}, msedge: {msedgedriverVersion: 118.0.2088.46 (175bd6acfc46..., userDataDir: C:\Users\MONISH~1.SIN\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.106.150:4444/s..., se:cdpVersion: 118.0.2088.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ff586f0475999778539629e88c36aba0" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ff586f0475999778539629e88c36aba0, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.46, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54099}, msedge: {msedgedriverVersion: 118.0.2088.46 (175bd6acfc46..., userDataDir: C:\Users\MONISH~1.SIN\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.106.150:4444/s..., se:cdpVersion: 118.0.2088.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff586f0475999778539629e88c36aba0
+</failure>
+  </testcase>
+  <testcase name="newTest" classname="com.flight.testRunner.TestRunner" time="10.396"/>
+</testsuite>

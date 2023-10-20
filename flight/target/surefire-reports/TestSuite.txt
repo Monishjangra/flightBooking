@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 11.445 sec <<< FAILURE! - in TestSuite
+newTest(com.flight.testRunner.TestRunner)  Time elapsed: 10.394 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ff586f0475999778539629e88c36aba0, setTimeout {implicit=10000}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.46, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54099}, msedge: {msedgedriverVersion: 118.0.2088.46 (175bd6acfc46..., userDataDir: C:\Users\MONISH~1.SIN\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.106.150:4444/s..., se:cdpVersion: 118.0.2088.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff586f0475999778539629e88c36aba0
+
+newTest(com.flight.testRunner.TestRunner)  Time elapsed: 10.396 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ff586f0475999778539629e88c36aba0, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.46, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54099}, msedge: {msedgedriverVersion: 118.0.2088.46 (175bd6acfc46..., userDataDir: C:\Users\MONISH~1.SIN\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.106.150:4444/s..., se:cdpVersion: 118.0.2088.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff586f0475999778539629e88c36aba0
+
